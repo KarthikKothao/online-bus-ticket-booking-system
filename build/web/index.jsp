@@ -1,0 +1,50 @@
+<%-- 
+    Document   : index
+    Created on : Nov 13, 2022, 3:04:10 PM
+    Author     : Lenovo
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Online Bus Ticket Booking System</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body bgcolor="lightblue">
+        <div>
+            <center> <h1> Online Bus Ticket Booking System</h1></center>
+        
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="Customer.jsp">Customer </a></li>
+                  <li><a href="Admin.jsp">Cloud</a></li>
+                  
+                   <li><a href="CustomerReg.jsp">Customer Registration</a></li>
+                 
+                   
+                
+            </ul>
+        </div>
+        <div>
+            <p align="justify">
+                Customer can buy the bus ticket over the Internet, 24 hours a day throughout the week, this solves the issue of bus ticket being misplaced or stolen. Users can recharge through cc or debit car.
+The site may get overloaded due to huge number of users visiting at once. Thus this system is built up using cloud infrastructure for improved performance.
+ In addition, the online system lets the customers check the availability of the bus ticket before they buy bus ticket. Furthermore, customers no need to pay cash to buy bus ticket because they can pay the bus ticket by using Credit Card (e.g. Master Card, Visa Card).
+Hence, there is a need of reformation of the system with more advantages and flexibility. The Bus Scheduling and Booking System eliminate most of the limitations of the existing software.
+Bus pass web system to put it simply, means system can provide pass identification using BAR code, Pass renewal, cancellation, updating, Student discount etc
+
+
+            </p>
+        </div>
+    </body>
+</html>
